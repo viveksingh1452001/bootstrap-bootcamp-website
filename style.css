@@ -1,0 +1,24 @@
+body::before{
+    display: block;
+    content: "";
+    height: 60px;
+    background-color: #fff;
+}
+@media (min-width: 768px){
+    .size{
+       max-width:500px;
+       
+    }
+}
+
+#learn{
+    background-color: rgb(255, 255, 255);
+}
+.learn-btn:hover {
+   background-color: rgb(243, 200, 8);
+}
+#map{
+    width: 100%;
+  height: 100%;
+    border-radius: 10px;
+}
